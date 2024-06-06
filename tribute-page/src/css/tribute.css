@@ -1,0 +1,58 @@
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tb-main {
+    margin: 6rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: snow;
+    background: #0B1215;
+}
+
+.tb-details {
+    padding: .5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tb-img {
+    width: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: snow;
+}
+
+.tb-text {
+    margin-top: .5rem;
+}
+
+.tb-btn {
+    margin-top: .5rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border: none;
+    border-radius: .5rem;
+    color: snow;
+    background: tomato;
+    font-weight: 700;
+}
+
+.tb-btn:hover {
+    transition: ease-in 3s;
+    opacity: 0.9;
+    color: #0B1215;
+}
+
+
+/* HELPER CLASS */
+.tb-center {
+    text-align: center;
+}
